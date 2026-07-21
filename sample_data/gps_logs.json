@@ -1,0 +1,92 @@
+[
+  {
+    "log_id": "GPS-001",
+    "case_id": "CR-2024-00471",
+    "subject_id": "SUBJ-002",
+    "timestamp": "2024-11-01T19:30:00Z",
+    "latitude": 13.0521,
+    "longitude": 80.2438,
+    "accuracy_m": 12,
+    "source": "mobile_device",
+    "location_label": "T. Nagar, Chennai (home area — SUBJ-002 residence)"
+  },
+  {
+    "log_id": "GPS-002",
+    "case_id": "CR-2024-00471",
+    "subject_id": "SUBJ-002",
+    "timestamp": "2024-11-01T20:05:00Z",
+    "latitude": 13.0612,
+    "longitude": 80.2501,
+    "accuracy_m": 18,
+    "source": "mobile_device",
+    "location_label": "Residential Complex A vicinity"
+  },
+  {
+    "log_id": "GPS-003",
+    "case_id": "CR-2024-00471",
+    "subject_id": "SUBJ-002",
+    "timestamp": "2024-11-01T20:12:00Z",
+    "latitude": 13.0618,
+    "longitude": 80.2509,
+    "accuracy_m": 15,
+    "source": "mobile_device",
+    "location_label": "Residential Complex A — Block B (matches CAM-04 entry)"
+  },
+  {
+    "log_id": "GPS-004",
+    "case_id": "CR-2024-00471",
+    "subject_id": "SUBJ-002",
+    "timestamp": "2024-11-01T22:00:00Z",
+    "latitude": 13.0621,
+    "longitude": 80.2511,
+    "accuracy_m": 22,
+    "source": "mobile_device",
+    "location_label": "Residential Complex A — Block B (stationary)"
+  },
+  {
+    "log_id": "GPS-005",
+    "case_id": "CR-2024-00471",
+    "subject_id": "SUBJ-002",
+    "timestamp": "2024-11-01T22:51:00Z",
+    "latitude": 13.0614,
+    "longitude": 80.2502,
+    "accuracy_m": 14,
+    "source": "mobile_device",
+    "location_label": "Residential Complex A — main gate (matches CAM-01 exit)"
+  },
+  {
+    "log_id": "GPS-006",
+    "case_id": "CR-2024-00471",
+    "subject_id": "SUBJ-002",
+    "timestamp": "2024-11-01T23:09:00Z",
+    "latitude": 13.0729,
+    "longitude": 80.2603,
+    "accuracy_m": 11,
+    "source": "mobile_device",
+    "location_label": "MG Road area — 2.1 km from complex",
+    "flag": "CONTRADICTION_CANDIDATE — CCTV at petrol station shows SUBJ-002 at 23:14 (2.1 km away), only 21 min after complex exit. Walking: ~25 min minimum. Driving: consistent only if vehicle used — no vehicle logged."
+  },
+  {
+    "log_id": "GPS-007",
+    "case_id": "CR-2024-00471",
+    "subject_id": "SUBJ-002",
+    "timestamp": "2024-11-01T23:41:00Z",
+    "latitude": 13.0524,
+    "longitude": 80.2441,
+    "accuracy_m": 16,
+    "source": "mobile_device",
+    "location_label": "T. Nagar — SUBJ-002 home area (returned)"
+  },
+  {
+    "log_id": "GPS-008",
+    "case_id": "CR-2024-00471",
+    "subject_id": "SUBJ-001",
+    "timestamp": "2024-11-01T19:20:00Z",
+    "latitude": 13.0617,
+    "longitude": 80.2507,
+    "accuracy_m": 20,
+    "source": "mobile_device",
+    "location_label": "Residential Complex A — last known GPS ping for SUBJ-001",
+    "flag": "NO_FURTHER_GPS_AFTER_THIS_TIMESTAMP — device likely powered off or destroyed"
+  }
+]

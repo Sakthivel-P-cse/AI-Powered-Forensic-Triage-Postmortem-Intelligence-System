@@ -1,0 +1,7 @@
+[
+  { "subject_id": "S-001", "timestamp": "2026-05-08T01:39:00Z", "lat": 13.0451, "lng": 80.2567, "accuracy_m": 12, "source": "phone" },
+  { "subject_id": "S-001", "timestamp": "2026-05-08T01:50:00Z", "lat": 13.0488, "lng": 80.2521, "accuracy_m": 14, "source": "phone" },
+  { "subject_id": "S-001", "timestamp": "2026-05-08T02:18:00Z", "lat": 13.0902, "lng": 80.1751, "accuracy_m": 38, "source": "phone" },
+  { "subject_id": "S-001", "timestamp": "2026-05-08T02:31:00Z", "lat": 13.0497, "lng": 80.2515, "accuracy_m": 18, "source": "vehicle" },
+  { "subject_id": "S-001", "timestamp": "2026-05-08T03:14:00Z", "lat": 13.0445, "lng": 80.2570, "accuracy_m": 11, "source": "phone" }
+]

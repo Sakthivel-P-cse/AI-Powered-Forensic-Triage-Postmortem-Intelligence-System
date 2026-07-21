@@ -1,0 +1,117 @@
+{
+  "case_id": "CR-2024-00471",
+  "generated_by": "contradiction_engine.py (deterministic)",
+  "contradictions": [
+    {
+      "contradiction_id": "CONT-001",
+      "type": "SUSPICIOUS",
+      "source_a": {
+        "type": "cctv",
+        "log_id": "CAM-01-exit",
+        "timestamp": "2024-11-01T22:53:00Z",
+        "location": "Main gate, Residential Complex A",
+        "subject_id": "SUBJ-002"
+      },
+      "source_b": {
+        "type": "cctv",
+        "log_id": "CAM-05",
+        "timestamp": "2024-11-01T23:14:00Z",
+        "location": "Petrol station, MG Road",
+        "subject_id": "SUBJ-002"
+      },
+      "time_delta_min": 21,
+      "distance_km": 2.1,
+      "haversine_calculated": true,
+      "min_travel_time_walking_min": 25.2,
+      "min_travel_time_driving_min": 2.1,
+      "analysis": "Walking is physically impossible in 21 min over 2.1 km. Driving is consistent. No vehicle was logged for SUBJ-002. Raises question of unlogged transport.",
+      "investigative_priority": "HIGH"
+    },
+    {
+      "contradiction_id": "CONT-002",
+      "type": "SUSPICIOUS",
+      "source_a": {
+        "type": "cctv",
+        "log_id": "CAM-01-exit",
+        "timestamp": "2024-11-01T22:53:00Z",
+        "location": "Main gate, Residential Complex A",
+        "subject_id": "SUBJ-002"
+      },
+      "source_b": {
+        "type": "call_log",
+        "log_id": "CALL-005",
+        "timestamp": "2024-11-01T22:58:00Z",
+        "cell_tower_location": "MG Road North, Chennai",
+        "subject_id": "SUBJ-002"
+      },
+      "time_delta_min": 5,
+      "distance_km": 2.1,
+      "haversine_calculated": true,
+      "min_travel_time_walking_min": 25.2,
+      "min_travel_time_driving_min": 2.1,
+      "analysis": "Cell tower ping at MG Road 5 min after complex exit. Physical presence not required — tower handoff can precede arrival. Classify SUSPICIOUS, not IMPOSSIBLE. Investigate vehicle use.",
+      "investigative_priority": "MEDIUM"
+    },
+    {
+      "contradiction_id": "CONT-003",
+      "type": "IMPOSSIBLE",
+      "source_a": {
+        "type": "gps",
+        "log_id": "GPS-008",
+        "timestamp": "2024-11-01T19:20:00Z",
+        "location": "Residential Complex A",
+        "subject_id": "SUBJ-001",
+        "note": "Last known GPS ping"
+      },
+      "source_b": {
+        "type": "call_log",
+        "log_id": "CALL-007",
+        "timestamp": "2024-11-01T20:08:00Z",
+        "location": "Tower: NULL — device offline",
+        "subject_id": "SUBJ-001"
+      },
+      "time_delta_min": 48,
+      "distance_km": null,
+      "haversine_calculated": false,
+      "analysis": "SUBJ-001 device goes completely dark at 20:08 — no GPS, no calls, no data. ToD window starts at 20:00. Phone silence coincides precisely with estimated death window onset. This is not a contradiction but a critical temporal alignment — flag as CRITICAL investigative lead.",
+      "investigative_priority": "CRITICAL"
+    },
+    {
+      "contradiction_id": "CONT-004",
+      "type": "SUSPICIOUS",
+      "source_a": {
+        "type": "autopsy",
+        "field": "tod_corrected_window_end",
+        "value": "2024-11-01T23:30:00Z",
+        "subject_id": "SUBJ-001"
+      },
+      "source_b": {
+        "type": "cctv",
+        "log_id": "CAM-04",
+        "timestamp": "2024-11-01T20:10:00Z",
+        "location": "Corridor Floor 4 — SUBJ-002 motion detected",
+        "subject_id": "SUBJ-002"
+      },
+      "time_delta_min": null,
+      "distance_km": null,
+      "haversine_calculated": false,
+      "analysis": "SUBJ-002 is placed on Floor 4 (crime scene floor) at 20:10 — within the ToD window (20:00–23:30). SUBJ-001 phone goes dark at 20:08. SUBJ-002 is on the same floor within 2 minutes of SUBJ-001's last device activity. High temporal-spatial convergence.",
+      "investigative_priority": "CRITICAL"
+    }
+  ],
+  "evidence_links": [
+    {
+      "link_id": "LINK-001",
+      "description": "SUBJ-002 CCTV entry (20:12) + GPS ping (20:12) + SUBJ-001 phone dark (20:08) — three-source convergence within 4-minute window",
+      "sources": ["CAM-04", "GPS-003", "CALL-007"],
+      "significance": "CRITICAL"
+    },
+    {
+      "link_id": "LINK-002",
+      "description": "SUBJ-002 on-site duration: 20:12 to 22:47 = 2h 35min. ToD window: 20:00–23:30. Full overlap.",
+      "sources": ["CAM-04", "CAM-03", "GPS-002", "GPS-004"],
+      "significance": "HIGH"
+    }
+  ],
+  "inconsistency_summary": "Two CRITICAL and two SUSPICIOUS contradictions identified. Most significant: SUBJ-001 phone goes dark at 20:08 while SUBJ-002 is documented on the same floor at 20:10. SUBJ-002 cannot account for travel from complex to MG Road in 21 minutes on foot — undisclosed vehicle likely. Total risk score inputs elevated."
+}

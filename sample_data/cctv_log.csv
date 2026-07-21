@@ -1,0 +1,8 @@
+camera_id,location,timestamp,event_type,direction,extra
+CAM-01,Lobby,2026-05-08T01:42:10Z,person_entered,inbound,
+CAM-04,Bldg A — North entrance,2026-05-08T01:48:55Z,person_entered,inbound,
+CAM-04,Bldg A — North entrance,2026-05-08T02:09:02Z,camera_offline,,reason=firmware_reboot
+CAM-04,Bldg A — North entrance,2026-05-08T02:24:18Z,person_exited,outbound,
+CAM-07,Parking — east deck,2026-05-08T02:31:44Z,vehicle_started,,plate_partial=TN-** **23
+CAM-04,Bldg A — North entrance,2026-05-08T02:53:11Z,person_entered,inbound,
+CAM-01,Lobby,2026-05-08T03:11:09Z,person_exited,outbound,

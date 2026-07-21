@@ -1,0 +1,81 @@
+[
+  {
+    "log_id": "CALL-001",
+    "case_id": "CR-2024-00471",
+    "subject_id": "SUBJ-001",
+    "timestamp": "2024-11-01T19:31:00Z",
+    "duration_sec": 84,
+    "call_type": "outgoing",
+    "cell_tower_id": "TN-CHN-4421",
+    "cell_tower_location": "T. Nagar South, Chennai",
+    "notes": "SUBJ-001 calls SUBJ-002 — 1 min 24 sec"
+  },
+  {
+    "log_id": "CALL-002",
+    "case_id": "CR-2024-00471",
+    "subject_id": "SUBJ-002",
+    "timestamp": "2024-11-01T19:31:00Z",
+    "duration_sec": 84,
+    "call_type": "incoming",
+    "cell_tower_id": "TN-CHN-4418",
+    "cell_tower_location": "T. Nagar North, Chennai",
+    "notes": "SUBJ-002 receives call from SUBJ-001 — tower consistent with GPS-001"
+  },
+  {
+    "log_id": "CALL-003",
+    "case_id": "CR-2024-00471",
+    "subject_id": "SUBJ-001",
+    "timestamp": "2024-11-01T19:44:00Z",
+    "duration_sec": 31,
+    "call_type": "outgoing",
+    "cell_tower_id": "TN-CHN-4435",
+    "cell_tower_location": "Residential Complex A area, Chennai",
+    "notes": "SUBJ-001 calls unknown number — 31 sec. Tower consistent with arrival at complex (CAM-01 entry at 19:45)"
+  },
+  {
+    "log_id": "CALL-004",
+    "case_id": "CR-2024-00471",
+    "subject_id": "SUBJ-002",
+    "timestamp": "2024-11-01T22:34:00Z",
+    "duration_sec": 187,
+    "call_type": "outgoing",
+    "cell_tower_id": "TN-CHN-4435",
+    "cell_tower_location": "Residential Complex A area, Chennai",
+    "flag": "CONTRADICTION_CANDIDATE — SUBJ-002 on a 3-min 7-sec call at 22:34 from inside complex. GPS-004 places them stationary at Block B at 22:00. CAM-03 exit not until 22:47. Consistent.",
+    "notes": "Call tower matches GPS and CCTV — no contradiction here"
+  },
+  {
+    "log_id": "CALL-005",
+    "case_id": "CR-2024-00471",
+    "subject_id": "SUBJ-002",
+    "timestamp": "2024-11-01T22:58:00Z",
+    "duration_sec": 63,
+    "call_type": "incoming",
+    "cell_tower_id": "TN-CHN-4436",
+    "cell_tower_location": "MG Road North, Chennai",
+    "flag": "CONTRADICTION_CANDIDATE — Cell tower at MG Road at 22:58 but CAM-01 shows SUBJ-002 exiting complex gate at 22:53. MG Road tower is 2.1 km away. 5-minute gap. Tower ping does NOT require physical presence — could reflect network handoff. Flag as SUSPICIOUS, not IMPOSSIBLE.",
+    "notes": "Tower handoff may precede physical arrival — classify SUSPICIOUS"
+  },
+  {
+    "log_id": "CALL-006",
+    "case_id": "CR-2024-00471",
+    "subject_id": "SUBJ-002",
+    "timestamp": "2024-11-01T23:52:00Z",
+    "duration_sec": 412,
+    "call_type": "outgoing",
+    "cell_tower_id": "TN-CHN-4420",
+    "cell_tower_location": "T. Nagar, Chennai",
+    "notes": "SUBJ-002 back in home area — 6 min 52 sec call. Consistent with GPS-007."
+  },
+  {
+    "log_id": "CALL-007",
+    "case_id": "CR-2024-00471",
+    "subject_id": "SUBJ-001",
+    "timestamp": "2024-11-01T20:08:00Z",
+    "duration_sec": 0,
+    "call_type": "missed_incoming",
+    "cell_tower_id": null,
+    "flag": "LAST_LOGGED_ACTIVITY — SUBJ-001 phone records end here. Device either powered off or destroyed after 20:08. No further calls, GPS, or data activity.",
+    "notes": "Missed call on SUBJ-001 device — phone goes dark immediately after"
+  }
+]

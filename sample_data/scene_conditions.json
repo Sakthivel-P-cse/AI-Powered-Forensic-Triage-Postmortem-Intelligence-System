@@ -1,0 +1,39 @@
+{
+  "case_id": "CR-2024-00471",
+  "scene_type": "Indoor — residential apartment, Floor 4, Flat 4B, Block B",
+  "scene_discovered": "2024-11-02T07:22:00Z",
+  "reported_by": "SUBJ-003 (maintenance worker)",
+  "body_position": "Supine on floor, posterior surface down, arms at sides",
+  "body_temp_celsius": 28.5,
+  "ambient_temp_celsius": 24.0,
+  "humidity_percent": 68,
+  "ventilation": "Windows closed, ceiling fan OFF, AC unit OFF",
+  "clothing": "Blue cotton shirt, grey trousers — no footwear",
+  "body_weight_kg": 68,
+  "postmortem_indicators_at_scene": {
+    "rigor_mortis": "FULL — all muscle groups",
+    "livor_mortis": "FIXED — posterior surface, non-blanchable",
+    "putrefaction": "ABSENT"
+  },
+  "scene_notes": [
+    "Apartment door found locked from inside — forced entry by maintenance",
+    "No signs of forced external entry — window latches intact",
+    "Overturned side table near body — lamp broken on floor",
+    "No weapon recovered at scene",
+    "Mobile phone of SUBJ-001 not found at scene"
+  ],
+  "tod_estimation_input": {
+    "algor_mortis_formula": "(37 - 28.5) / 0.83 = ~10.24 hours before exam",
+    "exam_time": "2024-11-03T09:15:00Z",
+    "raw_algor_estimate_window": ["2024-11-02T22:00:00Z", "2024-11-03T00:00:00Z"],
+    "rigor_correction": "Full rigor → 6–12 hour window → consistent with 8–12h before exam",
+    "livor_correction": "Fixed lividity → 12h+ post-mortem → lower bound pushed earlier",
+    "corrected_tod_window": ["2024-11-01T20:00:00Z", "2024-11-01T23:30:00Z"],
+    "confidence": "MEDIUM",
+    "caveats": [
+      "Closed room may have retained heat — ambient correction applied",
+      "Body weight within normal range — no correction needed",
+      "Gastric contents (2–3h post-meal) suggest last meal ~17:30–18:00 on 2024-11-01"
+    ]
+  }
+}

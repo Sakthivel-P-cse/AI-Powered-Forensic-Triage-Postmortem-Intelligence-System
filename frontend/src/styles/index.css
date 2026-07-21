@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(1200px 600px at 80% -10%, rgba(0,200,255,0.06), transparent 60%),
+    radial-gradient(900px 500px at -10% 110%, rgba(0,200,255,0.05), transparent 60%),
+    #0D1117;
+}
+
+::selection { background: rgba(0,200,255,0.35); color: #fff; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #0D1117; }
+::-webkit-scrollbar-thumb { background: #1F2A37; border-radius: 6px; }
+::-webkit-scrollbar-thumb:hover { background: #2a3a4d; }
+
+@layer components {
+  .panel {
+    @apply bg-forensic-panel border border-forensic-border rounded-lg;
+  }
+  .panel-pad {
+    @apply p-5;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 px-2 py-0.5 rounded-md text-xs font-mono uppercase tracking-wider border;
+  }
+  .btn {
+    @apply inline-flex items-center gap-2 px-3 py-2 rounded-md text-sm font-medium border transition-colors;
+  }
+  .btn-primary {
+    @apply btn bg-forensic-accent/10 border-forensic-accent/40 text-forensic-accent hover:bg-forensic-accent/20;
+  }
+  .btn-ghost {
+    @apply btn bg-transparent border-forensic-border text-forensic-text hover:bg-forensic-surface;
+  }
+  .btn-danger {
+    @apply btn bg-forensic-danger/10 border-forensic-danger/40 text-forensic-danger hover:bg-forensic-danger/20;
+  }
+  .label {
+    @apply text-[11px] uppercase tracking-[0.18em] text-forensic-muted font-mono;
+  }
+  .mono {
+    @apply font-mono;
+  }
+  .divider {
+    @apply h-px w-full bg-forensic-border;
+  }
+  .gridline {
+    background-image:
+      linear-gradient(to right, rgba(36,48,66,0.6) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(36,48,66,0.6) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+}
+
+/* Leaflet dark tweaks */
+.leaflet-container {
+  background: #0b1117;
+}
+.leaflet-control-attribution {
+  background: rgba(13,17,23,0.7) !important;
+  color: #7A8899 !important;
+}
+.leaflet-control-attribution a { color: #00C8FF !important; }

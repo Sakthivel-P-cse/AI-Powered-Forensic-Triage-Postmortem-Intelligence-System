@@ -1,0 +1,102 @@
+FORENSIC AUTOPSY REPORT
+=======================
+Case Number     : CR-2024-00471
+Decedent        : Subject-A (identity withheld — case_subject_id: SUBJ-001)
+Age / Sex / Race: 34 / Male / South Asian
+Date of Exam    : 2024-11-03  |  Time: 09:15 hrs
+Examining Path  : Dr. R. Sharma, MBBS, MD (Forensic Medicine)
+Report Date     : 2024-11-05
+
+------------------------------------------------------------
+EXTERNAL EXAMINATION
+------------------------------------------------------------
+Height: 172 cm  |  Weight: 68 kg  |  Build: Medium
+Clothing: Blue cotton shirt (torn at left shoulder), grey trousers, no footwear
+
+Identifying marks:
+  - 4 cm scar on right forearm (old, healed)
+  - Tattoo — left inner wrist, circular geometric pattern
+
+Rigor mortis  : FULL rigor present at all muscle groups at time of examination
+Livor mortis  : FIXED (non-blanchable), posterior surface — neck, back, posterior thighs
+Body temperature at scene: 28.5°C  |  Ambient temperature: 24°C
+
+Injuries — External:
+  1. Blunt force laceration, 6 cm × 2 cm, left parietal region — stellate pattern
+     Depth: subcutaneous to outer calvarium. Direction: superior to inferior.
+  2. Abrasion, 3 cm × 1 cm, right cheekbone — irregular margin, superficial
+  3. Contusion cluster, right upper arm — 4 separate impact points, 2–3 cm diameter each
+  4. Defensive wound — linear laceration, 4 cm, right palm (between thumb and index)
+  5. Petechial hemorrhages — bilateral conjunctivae (present)
+  6. Ligature mark — circumferential, neck, 1.2 cm wide, horizontal orientation, fixed lividity beneath
+
+No soot, stippling, or gunshot residue observed.
+No bite marks. No burns.
+
+------------------------------------------------------------
+INTERNAL EXAMINATION
+------------------------------------------------------------
+Cranium:
+  Subdural hematoma — left hemisphere, estimated volume 45 mL
+  Subarachnoid hemorrhage — left parietal region
+  Brain edema — moderate, diffuse
+  Skull fracture — linear, left parietal, 5 cm, non-comminuted
+
+Neck dissection:
+  Hyoid bone — fractured (right greater cornu)
+  Strap muscles — bilateral hemorrhage
+  Carotid sheath — intact bilaterally
+  No airway obstruction from foreign body
+
+Cardiovascular:
+  Heart weight: 310 g (normal range 280–340 g)
+  Coronary arteries: no significant stenosis
+  No myocardial infarction. No tamponade.
+
+Pulmonary:
+  Lungs — bilateral congestion, moderate pulmonary edema
+  Petechiae on pleural surface — bilateral (consistent with asphyxia)
+  No aspiration material
+
+Gastrointestinal:
+  Stomach contents: ~200 mL partially digested food (rice, vegetable matter)
+  Digestion state: early (consistent with meal 2–3 hours prior to death)
+  No perforations
+
+Liver: 1420 g — mild congestion. No cirrhosis.
+Kidneys: bilateral, normal weight and appearance
+Spleen: 140 g — unremarkable
+
+------------------------------------------------------------
+TOXICOLOGY
+------------------------------------------------------------
+Blood alcohol concentration (BAC) : 0.04% (low — sub-intoxicating)
+Benzodiazepine screen              : POSITIVE — Diazepam detected, 180 ng/mL
+                                     (therapeutic range: 100–250 ng/mL)
+Opioid screen                      : NEGATIVE
+Stimulant screen                   : NEGATIVE
+Heavy metals                       : NEGATIVE
+Carbon monoxide (COHb)             : 2% (normal background level)
+
+CONFLICT IN REPORT: Ligature mark with hyoid fracture is consistent with
+manual strangulation, but petechiae pattern and pulmonary changes are also
+consistent with positional asphyxia. Dual mechanism cannot be excluded.
+
+------------------------------------------------------------
+CAUSE & MANNER OF DEATH
+------------------------------------------------------------
+Immediate cause     : Subdural hematoma with transtentorial herniation
+Underlying cause    : Blunt force trauma to head AND neck compression (ligature)
+Contributing factors: Diazepam present (sub-therapeutic, not causative)
+Manner of death     : HOMICIDE (consistent with — final determination pending
+                      correlation with scene evidence and investigation)
+
+Overall confidence  : 0.81
+
+Pathologist opinion:
+The injuries are not consistent with accidental or self-inflicted trauma.
+The defensive wound on the right palm indicates active resistance.
+The ligature mark depth and hyoid fracture indicate significant neck force.
+Dual mechanism — head trauma and neck compression — likely occurred
+within a short interval. Stomach contents suggest death occurred
+approximately 2–4 hours after the decedent's last meal.

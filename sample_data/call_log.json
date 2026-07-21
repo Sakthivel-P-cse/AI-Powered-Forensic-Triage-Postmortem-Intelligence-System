@@ -1,0 +1,5 @@
+[
+  { "subject_id": "S-001", "timestamp": "2026-05-08T01:35:12Z", "duration_sec": 184, "cell_tower_id": "CT-A04", "call_type": "outgoing" },
+  { "subject_id": "S-001", "timestamp": "2026-05-08T02:17:45Z", "duration_sec": 42,  "cell_tower_id": "CT-W12", "call_type": "incoming" },
+  { "subject_id": "S-001", "timestamp": "2026-05-08T03:01:09Z", "duration_sec": 271, "cell_tower_id": "CT-A04", "call_type": "outgoing" }
+]
